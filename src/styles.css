@@ -1,0 +1,108 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.5px;
+}
+body {
+    
+
+  }
+
+.everybody{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    row-gap: 2rem;
+}
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+}
+.home{
+    padding: 0.4rem 0.9rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    background: #3234;
+}
+.home:hover{
+    background: #3238;
+    cursor: pointer;
+}
+.home-new{
+    padding: 0.4rem 0.9rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    background: #3238;
+    cursor: pointer;
+}
+.menu{
+    padding: 0.4rem 0.9rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    background: #3234;
+}
+.menu:hover{
+    background: #3238;
+    cursor: pointer;
+}
+.menu-new{
+    padding: 0.4rem 0.9rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    background: #3238;
+    cursor: pointer;
+}
+.about{
+    padding: 0.4rem 0.9rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    background: #3234;
+}
+.about:hover{
+    background: #3238;
+    cursor: pointer;
+}
+.about-new{
+    padding: 0.4rem 0.9rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    background: #3238;
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+.home-body{
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
