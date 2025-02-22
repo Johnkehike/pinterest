@@ -12,12 +12,16 @@ module.exports = {
   },
   devtool: "eval-source-map",
   devServer: {
+    static: {
+      directory: path.join(__dirname, "dist"),
+    },
     watchFiles: ["./src/template.html"],
+    hot: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/template.html",
-      inject: "body",
+      inject: "body"
     }),
   ],
   module: {
@@ -33,6 +37,9 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
+        generator: {
+          filename: 'assets/[name][ext]', 
+        },
       }
     ],
   },

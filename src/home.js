@@ -1,6 +1,5 @@
 
 export function home(){
-    console.log('ease');
 
 
     let homeContent = document.getElementById('content');
