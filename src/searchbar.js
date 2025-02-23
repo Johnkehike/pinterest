@@ -24,15 +24,6 @@ function searchDetails(){
         suggest.classList.add('suggest');
     });
 
-
-    // if (inputSearch.focus) {
-    //     searchFocus.style.display = 'none';
-
-    // }else if (!inputSearch.focus) {
-    //     searchFocus.style.display ='';
-        
-    // }
-
 }
 
 export { searchDetails }

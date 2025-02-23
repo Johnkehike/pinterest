@@ -605,15 +605,55 @@ img{
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     opacity: 0;
     transition: 0.5s;
     border-radius: 1rem;
     background-color: azure;
+
+
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 1rem;
+    background-color: azure; */
 }
 .img-cont:hover .overlay{
-    opacity: 0.2;
+    /* opacity: 0.2; */
+    /* background-color: rgba(240, 255, 255, 1); */
+    opacity: 1;
+    transition: 0.5s;
+    background-color: rgba(240, 255, 255, 0.2);
     cursor: pointer;
+}
+.save-div{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: baseline;
+  border-radius: 1rem;
+  justify-content: center;
+}
+.save-btn{
+  background-color: #f10000 !important;
+  color: #ffffff;
+  outline: none;
+  padding: 0.4rem 0.5rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  filter: brightness(1.2);
+  font-size: 1rem;
+}
+.mobile-footer{
+  display: none;
 }
 
 /*end of new config*/
@@ -654,5 +694,41 @@ img{
     }
     .group-icons{
 
+    }
+    .home-slide{
+      display: none;
+    }
+    .form{
+      display: none;
+    }
+    .mobile-footer{
+      width: 100%;
+      height: auto;
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      justify-content: space-around;
+      background-color: #fff;
+      align-items: center;
+      padding: 2vw 0;
+    }
+    .pinterest-bottom{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 0.2rem;
+      justify-content: center;
+      cursor: pointer;
+     
+      border-radius: 0.3rem;
+    }
+    .pinterest-bottom:hover{
+      background-color: #323;
+    }
+    .pinterest-bottom i{}
+    .pinterest-bottom p{
+      font-size: 0.8rem;
     }
   }

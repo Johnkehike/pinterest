@@ -1,4 +1,13 @@
 {
+  "name": "pinterest-clone",
+  "version": "1.0.0",
+  "homepage": "https://Johnkehike.github.io/pinterest",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production",
+    "predeploy": "webpack --mode production",
+    "deploy": "gh-pages -d dist"
+  },
   "devDependencies": {
     "css-loader": "^7.1.2",
     "gh-pages": "^6.3.0",

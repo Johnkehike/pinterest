@@ -7,14 +7,14 @@ import img5 from "./assets/5.jpg";
 export function itemsGallery() {
     const ImgObj = [];
 
-    const images = [img1, img2, img3, img4, img5]; // Use imported image paths
+    const images = [img1, img2, img3, img4, img5]; 
     let imageIndex = 0;
 
     for (let i = 0; i < 80; i++) {
         let item = {
             id: i,
             title: `image${i}`,
-            url: images[imageIndex], // Use imported URLs
+            url: images[imageIndex],
         };
         ImgObj.push(item);
         imageIndex++;
@@ -22,5 +22,4 @@ export function itemsGallery() {
     }
 
     return ImgObj
-    console.log(ImgObj);
 }
